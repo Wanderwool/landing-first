@@ -63,6 +63,32 @@ body
     padding: 10px 30px;
     border-radius: 12px;
     font-size: 16px;
-  margin: 4px 2px;
+    margin: 4px 2px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+ display: flex;
+ flex-direction: column;
+}
+
+.cardimg {
+    border-color: blue;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.cardtext {
+    max-width: 200px;
+}
