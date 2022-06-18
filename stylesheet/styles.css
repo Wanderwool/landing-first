@@ -1,6 +1,9 @@
 body 
 {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 100px;
     
   
    
@@ -69,12 +72,14 @@ body
 .information {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 
 }
 
 .cards {
     display: flex;
     justify-content: center;
+    column-gap: 10px;
 
 }
 
@@ -84,11 +89,42 @@ body
 }
 
 .cardimg {
-    border-color: blue;
-    border-radius: 5px;
+    border: 5px solid blue;
     max-width: 200px;
+    max-height: 200px;
 }
 
 .cardtext {
     max-width: 200px;
+    text-align: center;
+}
+
+.infheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quoteauthor {
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: bold;
 }
