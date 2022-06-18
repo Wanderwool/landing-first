@@ -1,0 +1,67 @@
+body 
+{
+    display: flex;
+  
+   
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px 300px;
+    gap: 100px;
+    
+
+}
+
+.heroheader {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.menu {
+    display: flex;
+}
+
+.links {
+    margin-left: auto;
+    color: #e5e7eb;
+
+}
+
+.imghero {
+    max-width: 650px;
+    height: auto;
+    margin-left: auto;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 100px;
+    gap: 40px;
+}
+
+.herobutton {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+  margin: 4px 2px;
+}
+
